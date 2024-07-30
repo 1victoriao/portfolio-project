@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #1c9486;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #f3f8f6;
 }
 
 body {
@@ -57,14 +57,14 @@ nav li {
 }
 
 nav a {
-  text-decoration: none;
-  color: #272142;
+  text-decoration: underline;
+  color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: black;
 }
 
 .hero {
