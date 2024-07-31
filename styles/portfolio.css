@@ -67,6 +67,17 @@ nav li.active a {
   color: black;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 24px;
+  text-align: center;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
